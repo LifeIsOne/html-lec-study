@@ -38,11 +38,23 @@
             border-radius: 4px;
         }
 
+
         .tf-search2 {
             height: 40px;
             width: 300px;
             font-size: 20px;
             border-radius: 4px;
+            padding: 0 0 0 35px;
+        }
+
+        .box-search {
+            position: relative;
+        }
+
+        .icon-search {
+            position: absolute;
+            top: 10px;
+            left: 10px;
         }
     </style>
 </head>
@@ -76,7 +88,14 @@
     <br>
     <br>
 
-    <input type="text" class="tf-search2" placeholder="🔎search here.">
+
+    <div class="box-search">
+        <input type="text" class="tf-search2" placeholder="search here.">
+        <i class="fa-solid fa-magnifying-glass icon-search"></i>
+    </div>
+
+    <br><br>
+
 
 </body>
 
