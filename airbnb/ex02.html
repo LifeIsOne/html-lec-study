@@ -2,6 +2,7 @@
 <html lang="ko">
 
 <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -29,11 +30,25 @@
             border-radius: 6px;
             border: 1px solid #000
         }
+
+        .tf-search {
+            height: 40px;
+            width: 300px;
+            font-size: 20px;
+            border-radius: 4px;
+        }
+
+        .tf-search2 {
+            height: 40px;
+            width: 300px;
+            font-size: 20px;
+            border-radius: 4px;
+        }
     </style>
 </head>
 
 <body>
-
+    <i class="fa-solid fa-magnifying-glass"></i>
     <h1>Button</h1>
     <hr>
     <input type="button" value="Search" class="btn-search">
@@ -50,11 +65,19 @@
                 d="M43.611,20.083H42V20H24v8h11.303c-0.792,2.237-2.231,4.166-4.087,5.571c0.001-0.001,0.002-0.001,0.003-0.002l6.19,5.238C36.971,39.205,44,34,44,24C44,22.659,43.862,21.35,43.611,20.083z" />
         </svg>Sign in with Google
     </button>
+
     <br>
     <br>
+
     <h1>Input Tag</h1>
     <hr>
-    <input type="text">
+    <input type="text" class="tf-search" placeholder="🔎search here.">
+
+    <br>
+    <br>
+
+    <input type="text" class="tf-search2" placeholder="🔎search here.">
+
 </body>
 
 </html>
