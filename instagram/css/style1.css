@@ -1,0 +1,148 @@
+@charset "utf-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: #0095F6;
+}
+
+img {}
+
+.main {
+    margin: 100px auto;
+    width: 800px;
+    height: 600px;
+    text-align: center;
+}
+
+.left {
+    width: 400px;
+    float: left;
+    display: inline-block;
+}
+
+.right {
+    width: 400px;
+    float: right;
+    display: inline-block;
+}
+
+.login {
+    width: 400px;
+    display: inline-block;
+    padding: 10px auto;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.login img {
+    margin: 40px 0 0 0;
+}
+
+.login input {
+    display: block;
+    width: 70%;
+    height: 40px;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #eaeaea;
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-align: start;
+    font-size: 12px;
+}
+
+.login button {
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 30px;
+    background: #B2DFFC;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.login button:hover {
+    background: #0095F6;
+}
+
+.or {
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.or hr:first-child {
+    float: left;
+    width: 34%;
+}
+
+.or div {
+    float: left;
+    width: 28%;
+    top: 0;
+    position: absolute;
+    left: 36%;
+    top: -7px;
+}
+
+.or hr:last-child {
+    float: right;
+    width: 34%;
+}
+
+.signup div {
+    padding: 20px;
+}
+
+.facebook {
+    width: 70%;
+    margin: 0 auto 10px;
+}
+
+.facebook div {
+    padding: 10px;
+}
+
+.facebook img {
+    margin: 0;
+    vertical-align: middle;
+}
+
+.app {
+    width: 400px;
+    margin: 10px;
+}
+
+.app img {
+    width: 40%;
+    display: inline-block;
+    padding: 10px auto;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+footer {
+    width: 800px;
+    margin: 10px auto;
+    text-align: center;
+    font-size: 11px;
+
+}
+
+ul {
+    height: 20px;
+    margin: 0 auto;
+}
+
+ul li {
+    list-style: none;
+    float: left;
+    margin: 0 15px 0 0;
+}

@@ -1,0 +1,75 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    z-index: 1;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    font-size: 10px;
+    position: absolute;
+    width: 90%;
+    left: 5%;
+}
+
+header span {
+    margin: 0 5px
+}
+
+header div {}
+
+ul li {
+    list-style: none;
+    float: left;
+    margin: 0 10px 0 0;
+}
+
+body {
+    width: 100%;
+}
+
+.main {}
+
+.left {
+    background: url(../images/vacation.jpg) no-repeat center;
+    background-size: cover;
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    left: 0;
+}
+
+.right {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    left: 50%;
+    background: #F8ECEB;
+}
+
+.right h1 {
+    margin: 30% 15%;
+    font-size: 30px;
+}
+
+.bottom {
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    background: #FFF;
+    padding: 2px;
+}
+
+
+.sidebar {
+    float: left;
+}
+
+.sns {
+    float: right;
+    margin: 0 10px 0;
+}
