@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ㄴㄴ</title>
+    <style>
+        .outer-box {
+            width: 500px;
+            height: 500px;
+            background: skyblue;
+
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .inner-box1 {
+            width: 100px;
+            height: 100px;
+            background: red;
+        }
+
+        .inner-box2 {
+            width: 100px;
+            height: 100px;
+            background: blue;
+        }
+
+        .outer-box>div:nth-child(2) {
+            display: grid;
+            justify-content: end;
+        }
+
+        .outer-box>div:nth-child(1) {
+            display: grid;
+            align-items: end
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="outer-box">
+        <div>
+            <div class="inner-box1">1</div>
+        </div>
+        <div>
+            <div class="inner-box2">2</div>
+        </div>
+    </div>
+</body>
+
+</html>

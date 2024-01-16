@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box설계</title>
+    <style>
+        .nav {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            justify-content: space-between;
+        }
+
+        .main {
+            padding: 0 50px;
+        }
+
+        .menu {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-column-gap: 20px;
+        }
+
+        .info {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-column-gap: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <div class="logo">airbnb</div>
+        <div class="menu">
+            <div>Stays</div>
+            <div>Experience</div>
+            <div>Online Experience</div>
+        </div>
+        <div class="info">
+            <div>Airbnb your home</div>
+            <div>Icon</div>
+            <div>Hamburger</div>
+        </div>
+    </div>
+</body>
+
+</html>
