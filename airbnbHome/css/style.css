@@ -1,0 +1,108 @@
+@charset "utf-8";
+
+a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+
+header {}
+
+
+nav {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin: 0 10px;
+    color: #fff;
+}
+
+.menu ul {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    color: #fff;
+}
+
+li {
+    list-style: none;
+    margin-left: 10px;
+}
+
+.section1 {
+    height: 900px;
+}
+
+.menu {}
+
+body {
+    background: url(../images/background.jpg) no-repeat;
+    background-size: cover;
+}
+
+.box {
+    background: #FFF;
+    width: 400px;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 20px;
+}
+
+input {
+    padding: 10px 0;
+    border: #ddd solid 1px;
+}
+
+.where {
+    padding: 10px 0;
+    width: 100%;
+    border: #ddd solid 1px;
+}
+
+.check {
+    display: grid;
+    grid-template-columns: auto auto;
+
+}
+
+.check_in input,
+.check_out input {
+    width: 95%;
+    display: inline-block;
+}
+
+.member {
+    width: 100%;
+}
+
+.btn {
+    display: grid;
+    justify-content: end;
+    padding: 20px 0;
+}
+
+.btn button {
+    background-color: #FF5A5F;
+    color: white;
+    width: 70px;
+    height: 45px;
+    font-size: 15px;
+    font-weight: 700;
+    /*굵기*/
+    border-radius: 6px;
+    border: 0;
+    cursor: pointer;
+}
+
+section {
+    width: 95%;
+    margin: 0 auto;
+    background: #ddd;
+}
