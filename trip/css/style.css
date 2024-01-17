@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+.main {
+    background: #E8E8E8;
+    display: flex;
+    justify-content: center;
+}
+
+.main-body {}
+
+s .title {
+    color: #F9847C;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+button {
+    color: #FFF;
+    padding: 20px;
+    background: -moz-repeating-linear-gradient(#F9847C, #d35252);
+
+}
