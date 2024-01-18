@@ -6,6 +6,11 @@
     box-sizing: border-box;
 }
 
+img {
+    width: 100%;
+    height: 100%;
+}
+
 header {
     background: url(../images/background.jpg);
     height: 800px;
@@ -42,4 +47,161 @@ nav {
     /* TODO : 나중에 지우기 */
     background: #FFF;
     box-shadow: 5px 5px 10px 0px #ccc;
+
+    font-weight: bold;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.search_box table {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.search_box td {
+    padding: 5px 0;
+}
+
+.search_box input {
+    width: 100%;
+    padding: 15px 5px;
+    border: 1px solid #ddd;
+}
+
+input,
+input::placeholder,
+select {
+
+    color: #777;
+}
+
+
+.search_box select {
+    width: 100%;
+    padding: 15px 0;
+    border: 1px solid #ddd;
+}
+
+/* 검색버튼 */
+.btn {
+    display: grid;
+    justify-content: end;
+    margin-top: 10px;
+}
+
+.btn button {
+    background-color: #ff9c9f;
+    color: white;
+    width: 70px;
+    height: 45px;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 6px;
+    border: 0;
+    cursor: pointer;
+}
+
+.btn button:hover {
+    background: #FF5A5F;
+    transition: 0.2s;
+}
+
+/* SECTION 1 */
+section {
+    width: 90%;
+    margin: auto;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 900;
+    margin-top: 30px;
+}
+
+.card_box {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 5px;
+    margin: 30px 0;
+    height: 50%;
+}
+
+.card {
+    border: 3px solid #ddd;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+
+.card_title {
+    font-weight: bold;
+    padding: 0 5px;
+    display: flex;
+    align-items: center;
+}
+
+
+.ad_img {
+    margin: 50px 0;
+    height: 20%;
+}
+
+.ad_img img {
+    width: 100%;
+    border-radius: 10px;
+    height: 100%;
+}
+
+/* SECTION 2 */
+.r_travel_img {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 10px;
+}
+
+/* SECTION 3 */
+.subtitle {
+    margin-bottom: 20px;
+}
+
+.puls_img img {
+    width: 100%;
+}
+
+/* SECTION 4 */
+.stays_box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.stays {
+    width: 100%;
+}
+
+.stays img {
+    height: 15%;
+}
+
+.stays_info {
+    color: #aaa;
+    font-size: 15px;
+}
+
+.stays_name {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 5px 0;
+}
+
+.stays_score {
+    display: grid;
+    justify-content: start;
+    grid-template-columns: auto auto auto;
+    font-size: 12px;
+}
+
+.stays_score div {
+    margin-right: 5px;
 }
